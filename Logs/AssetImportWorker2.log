@@ -1,0 +1,225 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.28f1 (232e59c3f087) revision 2305625'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7860 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/ADMIN/My project (1)
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57995
+Successfully changed project path to: C:/Users/ADMIN/My project (1)
+C:/Users/ADMIN/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12504] Host "[IP] 192.168.86.34 [Port] 0 [Flags] 2 [Guid] 3624539984 [EditorId] 3624539984 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-6V9RRFM5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12504] Host "[IP] 192.168.86.34 [Port] 0 [Flags] 2 [Guid] 3624539984 [EditorId] 3624539984 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-6V9RRFM5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 131.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.28f1 (232e59c3f087)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ADMIN/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x46b3)
+    Vendor:   Intel
+    VRAM:     3930 MB
+    Driver:   31.0.101.4146
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004372 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1049ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (818ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008958 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ADMIN\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ADMIN\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.075 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2076ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1729ms)
+			LoadAssemblies (844ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.3 KB). Loaded Objects now: 3513.
+Memory consumption went from 107.5 MB to 107.5 MB.
+Total: 5.193500 ms (FindLiveObjects: 0.364800 ms CreateObjectMapping: 0.381200 ms MarkObjects: 4.135400 ms  DeleteObjects: 0.310300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 547506.465250 seconds.
+  path: Assets/Sfx/Metal pipe falling.mp3
+  artifactKey: Guid(0cb826702c1cc9f48a6cae39ce5b8f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sfx/Metal pipe falling.mp3 using Guid(0cb826702c1cc9f48a6cae39ce5b8f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6025a874df9b648df0b60be3bf59f4bd') in 0.358893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sfx/People hitting stuff.mp3
+  artifactKey: Guid(03b61f6682f81a246bf615c8ea8db9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sfx/People hitting stuff.mp3 using Guid(03b61f6682f81a246bf615c8ea8db9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c350a17eea2309db308ae96713e190a') in 0.049289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Sfx/Street noise.mp3
+  artifactKey: Guid(81959806b7fb6194cb0b39df1efb2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sfx/Street noise.mp3 using Guid(81959806b7fb6194cb0b39df1efb2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1e7425a4a081ff760a185b96f64787') in 0.049123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sfx/Car pass by.mp3
+  artifactKey: Guid(7a8082057e8e9e049a9146f9e1995027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sfx/Car pass by.mp3 using Guid(7a8082057e8e9e049a9146f9e1995027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80abb05c6cfa7969c1834f3fb9ac88f4') in 0.043663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sfx/Tieng-tre-em-choi-dua.mp3
+  artifactKey: Guid(bd5061efa9e347e47909c004ced472ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sfx/Tieng-tre-em-choi-dua.mp3 using Guid(bd5061efa9e347e47909c004ced472ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5600b35354b834927f5f39554e37463c') in 0.033643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sfx/Ceiling fan.mp3
+  artifactKey: Guid(fea5e440a25a4944b85b84d66b646904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sfx/Ceiling fan.mp3 using Guid(fea5e440a25a4944b85b84d66b646904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ab20c8d43f494ac632a1ba67f49209') in 0.030106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sfx/Car horn.mp3
+  artifactKey: Guid(27c952735720c5044a719bc317aefaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sfx/Car horn.mp3 using Guid(27c952735720c5044a719bc317aefaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562923e99af5d62281de245b696c6bdd') in 0.054468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sfx/Motobike.mp3
+  artifactKey: Guid(fdf5dba3cd203ec4282028a6faa1c926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sfx/Motobike.mp3 using Guid(fdf5dba3cd203ec4282028a6faa1c926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fd19f0ffe62e8adafea0d763393f79') in 0.028692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sfx/Indoor footstep.mp3
+  artifactKey: Guid(3ce41b47e27f2474da8f9419e609d0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sfx/Indoor footstep.mp3 using Guid(3ce41b47e27f2474da8f9419e609d0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6f112cd888cc75e4d20ff5e16926fb') in 0.023754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sfx/Concrete footstep.mp3
+  artifactKey: Guid(a72ff831b6cf953479f99c00e6e759eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sfx/Concrete footstep.mp3 using Guid(a72ff831b6cf953479f99c00e6e759eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8180ba00a44fc7dd84ca1114308b4a') in 0.028895 seconds 
